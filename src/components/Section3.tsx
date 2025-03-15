@@ -1,6 +1,6 @@
 import { Play } from "lucide-react";
 import { useState } from "react";
-
+import bg from "../assets/bg.png";
 const Section3 = () => {
   const [isPlaying, setIsPlaying] = useState(false);
 
@@ -36,7 +36,7 @@ const Section3 = () => {
           <div
             className="relative lg:w-[800px] h-[300px]  md:w-[450px] rounded-lg mr-32"
             style={{
-              backgroundImage: `url('https://s3-alpha-sig.figma.com/img/964c/fd2e/c2e5346d235a643009c592008966c7e3?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=dbZJJ-SxqPaqkWO81-i~-SsyKaDGGSZRN7OUZ4apOoc2dIqgeTnJ08WZ6kAmVr1-V5vUFPQaSP8FYEbF5W106UFIb7DbWmSojGN1Kgh~AfE2ylkC20bfmgIXSds8AvSPoLzGldeV4C-RamzMUGWMt~itQsZwsqbjAAJ6hhLjf8MaOo07GJf9nCfxkYiCVUmGrbBLLPuXHnhhyN~vdeYnb6DZwz5nZ5C7YdIQkvpZRwnYmKBeLfkjwe2kkafygHhzSGsHiUGOiB8U0YmS2z4fHTQjlzTbqbS6e4kDOrUVbSfZMryO3ug1jiLQQ5m0kSCShtDPYHILlGa7qeSsmdQFcQ__')`,
+              backgroundImage: `url(${bg})`,
               backgroundSize: "cover",
               backgroundPosition: "center",
             }}

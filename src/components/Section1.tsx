@@ -1,12 +1,12 @@
 import { ArrowUpRight } from "lucide-react";
-
+import bg from "../assets/bg.png";
 const Section1 = () => {
   return (
     <section
       id="section1"
       className="relative h-screen flex items-center md:items-start justify-center md:justify-start bg-cover bg-center bg-no-repeat w-full px-6 md:px-16 pt-20 md:pt-32"
       style={{
-        backgroundImage: `url('https://s3-alpha-sig.figma.com/img/964c/fd2e/c2e5346d235a643009c592008966c7e3?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=dbZJJ-SxqPaqkWO81-i~-SsyKaDGGSZRN7OUZ4apOoc2dIqgeTnJ08WZ6kAmVr1-V5vUFPQaSP8FYEbF5W106UFIb7DbWmSojGN1Kgh~AfE2ylkC20bfmgIXSds8AvSPoLzGldeV4C-RamzMUGWMt~itQsZwsqbjAAJ6hhLjf8MaOo07GJf9nCfxkYiCVUmGrbBLLPuXHnhhyN~vdeYnb6DZwz5nZ5C7YdIQkvpZRwnYmKBeLfkjwe2kkafygHhzSGsHiUGOiB8U0YmS2z4fHTQjlzTbqbS6e4kDOrUVbSfZMryO3ug1jiLQQ5m0kSCShtDPYHILlGa7qeSsmdQFcQ__')`,
+        backgroundImage: `url(${bg})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
