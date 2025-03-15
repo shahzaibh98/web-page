@@ -1,10 +1,10 @@
-import { useEffect, useState } from "react";
-import Highcharts, { color } from "highcharts";
+import Highcharts from "highcharts";
 import HighchartsReact from "highcharts-react-official";
 import mapModule from "highcharts/modules/map"; // Import Highcharts Map module
+import { useEffect, useState } from "react";
 
-import image1 from "../assets/image4.png";
 import { MapPin } from "lucide-react";
+import image1 from "../assets/image4.png";
 if (typeof mapModule === "function") {
   mapModule(Highcharts);
 }
